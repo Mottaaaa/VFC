@@ -167,3 +167,64 @@ table tfoot {
 .nodecor-list {
     list-style: none;
 }
+.social-media-list {
+    list-style: none;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.social-media-list > li {
+    margin-right: 10px;
+}
+
+.social-media-list > li > a > img {
+    height: 24px;
+    width: 24px;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ddd;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    height: fit-content;
+  }
+
+.content-main {
+    background-image: url('../images/vfc_wallpaper2.jpg');
+    background-size: auto;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.modo {
+    float: left;
+    width: 58%;
+}
+
+.content > .marcha {
+    float: right;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    display: flex;
+    word-wrap: break-word;
+    width: 42%;
+}
+
+.content > .marcha > span {
+    font-size: small;
+    -moz-column-count:2; /* Firefox */
+    -webkit-column-count:2; /* Safari and Chrome */
+    column-count:2;
+}
