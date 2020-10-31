@@ -149,3 +149,21 @@ table tfoot {
 .table {
     overflow-x: auto;
 }
+
+.subHeader {
+    background-image: url('../images/header.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 3% 0;
+}
+
+.subHeader > h1, .subHeader > h2 {
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.nodecor-list {
+    list-style: none;
+}
