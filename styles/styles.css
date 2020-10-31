@@ -111,9 +111,13 @@ nav .nav-content ul .close span {
 }
 
 .content {
-    height: 85%;
     width: 100%;
-    padding: 2%;
+    padding: 2% 2% 60px 2%;
+}
+
+.container {
+    min-height:100%;
+   position:relative;
 }
 
 table {
@@ -188,8 +192,7 @@ table tfoot {
 }
 
 .footer {
-    position: fixed;
-    left: 0;
+    position: absolute;
     bottom: 0;
     width: 100%;
     background-color: #ddd;
@@ -198,7 +201,7 @@ table tfoot {
     display: flex;
     justify-content: space-evenly;
     align-content: center;
-    height: fit-content;
+    height: 60px;
   }
 
 .content-main {
@@ -206,6 +209,8 @@ table tfoot {
     background-size: auto;
     color: white;
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    display: flex;
+    padding-bottom: 150px;
 }
 
 .modo {
