@@ -12,6 +12,14 @@ html, body {
     height: 100%;
 }
 
+p {
+    text-align: justify;
+}
+
+li {
+    text-align: justify;
+}
+
 header {
     height: 10%;
 }
@@ -105,5 +113,39 @@ nav .nav-content ul .close span {
 .content {
     height: 85%;
     width: 100%;
-    padding: 10px;
+    padding: 2%;
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+table td, table th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+table tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: white;
+}
+
+table tfoot {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-weight: bold;
+}
+
+.table {
+    overflow-x: auto;
 }
